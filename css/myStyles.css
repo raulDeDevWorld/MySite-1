@@ -1,0 +1,396 @@
+
+/* Perfil */
+.photo {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+	transition: object-position 0.5s;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    animation: rotar 3s alternate;
+
+}
+  @keyframes rotar{
+    0%{transform: translateY(-200px);}
+	20%{transform: translateY(-10px);}
+	30%{transform: translateY(-30px);}
+	40%{transform: translateY(0px);}
+    50% {transform: rotate(0deg);}
+    60% {transform: rotate(10deg);}
+    70% {transform: rotate(-15deg);}
+    80% {transform: rotate(15deg);}
+    90% {transform: rotate(-10deg);}
+    100% {transform: rotate(0deg);}
+  }
+/* presentation container */
+.contPre {
+  position: absolute;
+  top: 170px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  text-align: center;
+  color:  aliceblue;
+  width: 200px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.603);
+  border-radius: 5px;
+}
+.name {
+  font-family: 'Work Sans';
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.anim {
+  position: absolute;
+  animation-name: myAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.curriculum {
+  cursor: pointer;
+  animation-name: myAnimationTwo;
+  animation-duration: 1s;
+  animation-delay: 4s;
+
+}
+@keyframes myAnimationTwo {
+  0% {color: transparent}
+  50%{color: inherit }
+  75% {color: transparent}
+  100%{color: inherit }
+}
+@keyframes myAnimation {
+  0% {color:aliceblue}
+  50%{color: transparent}
+}
+/* proyectos en aula */
+.proTeach {
+  position: absolute;
+  top: 270px;
+  left: 0px;
+  color:  aliceblue;
+  width: 200px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.774);
+  animation-name: myAnimationOne;
+  animation-duration: 1s;
+  border-radius: 0 5px 5px 0;
+
+}
+
+.contImg{
+  
+  position: absolute;
+  top: 310px;
+  left: 0;
+  right: 0;
+  margin: auto;
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+
+  
+}
+
+.contp1 {
+  cursor: pointer;
+  position: relative;
+  width: 150px;
+  height: 200px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  color: aliceblue;
+}
+.span {
+  position: relative;
+  top: -39px;
+  left: -5px;
+  background-color: rgba(0, 0, 0, 0.774);
+  display: inline-block;
+  width: 100%;
+  padding: 5px ;
+  border-radius: 0px 0px 5px 5px;
+
+}
+
+.p1 {
+	width:100%;
+	height: 100%;
+	object-fit:cover ;
+	object-position: left;/*modifica la posicion*/
+	transition: object-position 1s;
+}
+
+
+.p1:hover{
+	object-position: right;	
+}
+
+@keyframes myAnimationOne {
+  0% {left: -200px}
+  100%{left:0 }
+}
+/* proyectos dev */
+
+.proDev {
+  position: absolute;
+  top: 820px;
+  color:  aliceblue;
+  width: 200px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.774);
+  animation-name: myAnimationOne;
+  animation-duration: 1s;
+  border-radius: 0 5px 5px 0;
+
+}
+@keyframes myAnimationOne {
+  0% {left: -200px}
+  100%{left:0 }
+}
+.ver {
+  text-align: center;
+  color: aliceblue;
+  width: 100%;
+}
+.ver a {
+  text-align: center;
+  color: aliceblue;
+  width: 100%;
+}
+.contImgTwo{
+ 
+  position: absolute;
+  top: 860px;
+  left: 0;
+  right: 0;
+  margin: auto;
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+  
+  
+}
+
+.contp2 {
+  cursor: pointer;
+  position: relative;
+  width: 150px;
+  height: 290px;
+
+  margin: 10px;
+  margin-top: 20px;
+ 
+  color:  aliceblue;
+ 
+}
+.span2 {
+  position: relative;
+  top: -28px;
+  background-color: rgba(0, 0, 0, 0.774);
+  display: inline-block;
+  width: 140px;
+  padding: 5px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.p2 {
+	width:100%;
+	height: 100%;
+  border-radius: 5px;
+	object-fit:cover ;
+	object-position: left;/*modifica la posicion*/
+	transition: object-position 1s;
+}
+
+
+.p2:hover{
+	object-position: right;	
+}
+
+@keyframes myAnimationOne {
+  0% {left: -200px}
+  100%{left:0 }
+}
+
+
+
+
+
+.button {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  color: aliceblue;
+  padding: 5px 1px;
+  background-color:  rgba(0, 0, 0, 0.774);
+  background-image: url(../assets/whatsapp.svg);
+  background-repeat: no-repeat;
+  background-position: 100px 3px;
+  background-size: 18px;
+  width: 125px;
+  border: 2px solid #d6d6d6;
+  border-radius: 5px;    
+}
+.button a {
+  color: aliceblue;
+}
+
+@media (min-width: 720px){
+
+
+
+  .proDev {
+    position: absolute;
+    top: 600px;
+  }
+  .contImgTwo{
+    position: absolute;
+    top: 640px;
+  }
+  
+}
+  @media (max-width: 359px){
+
+
+
+    .proDev {
+      position: absolute;
+      top: 1300px;
+    }
+    .contImgTwo{
+      position: absolute;
+      top: 1350px;
+    }
+  
+
+
+  }
+
+  @media (min-width: 1680px){
+    body {
+      font-size: 16px;
+    }
+    .photo {
+      top: 150px;
+      width: 200px;
+      height: 200px;
+
+  }
+
+
+/* presentation container */
+.contPre {
+  position: absolute;
+  top: 400px;
+  width: 500px;
+  padding: 15px;
+
+}
+
+
+/* proyectos en aula */
+.proTeach {
+  position: absolute;
+  top: 600px;
+  left: 0px;
+  width: 350px;
+  padding: 10px;
+  padding-left: 25px;
+
+}
+
+.contImg{
+  
+  position: absolute;
+  top: 650px;
+}
+
+.contp1 {
+
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 20px;
+
+}
+.span {
+  position: relative;
+  top: -53px;
+  left: -5px;
+  background-color: rgba(0, 0, 0, 0.774);
+  display: inline-block;
+  width: 290px;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+}
+
+
+
+/* proyectos dev */
+
+.proDev {
+  position: absolute;
+  top: 1080px;
+
+  width: 350px;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+.ver {
+  text-align: center;
+  color: aliceblue;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contImgTwo{
+ 
+  position: absolute;
+  top: 1135px; 
+}
+
+.contp2 {
+  cursor: pointer;
+  position: relative;
+  width: 300px;
+  height: 590px;
+
+  margin: 10px;
+  margin-top: 20px;
+}
+.span2 {
+  position: relative;
+  top: -40px;
+  background-color: rgba(0, 0, 0, 0.774);
+  display: inline-block;
+  width: 280px;
+  padding: 10px;
+ 
+  border-radius: 0px 0px 5px 5px;
+}
+
+.button {
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+ 
+}
+
+}
