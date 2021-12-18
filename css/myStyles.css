@@ -258,7 +258,7 @@ color: red;
   color: aliceblue;
 }
 @keyframes myAnimB{
-	0% {transform: scale(.7);}
+	0% {transform: scale(0.7);}
 	50%{transform: scale(1);}
 }
 .footer {
