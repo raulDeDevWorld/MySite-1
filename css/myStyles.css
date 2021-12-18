@@ -250,9 +250,9 @@ color: red;
   border: 2px solid #d6d6d6;
   border-radius: 5px; 
   animation-name: myAnimB;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 .button a {
   color: aliceblue;
