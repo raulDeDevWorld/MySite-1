@@ -253,7 +253,9 @@ color: red;
 .button a {
   color: aliceblue;
 }
-
+.footer {
+bacground: yellow;
+}
 @media (min-width: 720px){
 
 
