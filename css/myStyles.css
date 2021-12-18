@@ -248,10 +248,18 @@ color: red;
   background-size: 18px;
   width: 125px;
   border: 2px solid #d6d6d6;
-  border-radius: 5px;    
+  border-radius: 5px; 
+  animation-name: myAnimB;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
 }
 .button a {
   color: aliceblue;
+}
+@keyframes myAnimB{
+	0% {transform: scale(1);}
+	50%{transform: scale(2);}
 }
 .footer {
 color:aliceblue;
