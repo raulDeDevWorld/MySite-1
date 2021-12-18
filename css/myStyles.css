@@ -277,6 +277,9 @@ color:aliceblue;
     position: absolute;
     top: 640px;
   }
+.button {
+ rigth: 20px;
+}
   
 }
   @media (max-width: 359px){
@@ -403,7 +406,7 @@ color:aliceblue;
 
 .button {
   position: fixed;
-  right: 30px;
+  right: 40px;
   bottom: 40px;
  
 }
