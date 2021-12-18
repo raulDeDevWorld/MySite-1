@@ -252,7 +252,7 @@ color: red;
   animation-name: myAnimB;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 .button a {
   color: aliceblue;
