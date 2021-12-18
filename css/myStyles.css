@@ -254,8 +254,7 @@ color: red;
   color: aliceblue;
 }
 .footer {
-position: relative;
-background: yellow;
+
 }
 @media (min-width: 720px){
 
